@@ -10,6 +10,7 @@ const profile = {
    fullName:"ishi jain",
    followers:569,
    following:4,
+   likes : 456,
 
 
 }; 
