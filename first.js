@@ -18,7 +18,7 @@ console.log(profile)
 
 // console.log("hljhjf")
 
-//Arimetic Operators
+//Arithmetic Operators
 
 let a = 5;
 let b = 2;
@@ -41,6 +41,26 @@ console.log("c=",c);
 //a++(post) , ++a(pre)
 //a--(post) , --a(pre)
 
+let e = 5;
+let f = 2;
+
+console.log("a=",a,"&b=",b);
+
+console.log("++a=",++a)
+
+//Assigment operators
+
+let g = 5;
+let h = 2;  
+
+g += 4;  // g = g + 4
+console.log("a=",a); 
+
+// comparison operators 
+
+ let i = 5;
+ let j = 2;
+ 
 
 
 
