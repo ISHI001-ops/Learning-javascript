@@ -64,6 +64,31 @@ console.log("a % b =", a % b);
  console.log("5===2",c===d);
 
 
+ // logical operators
+
+
+// -->logiacl AND
+let e = 6;
+let f = 5;
+
+let cond1 = e > f; //true
+let cond2 = e === 6; //true 
+console.log("cond1 && cond2", cond1 && cond2);
+
+// -->logical OR
+let h = 6;
+let i = 5;
+
+console.log("cond3 || cond4 =",h < i || h === 6 ); // || -> pipe symbol
+
+// -->logical NOT
+let j = 6;
+let k = 5;
+
+console.log("!(6<5) = ", !(i < k) );
+
+
+
 
  
 
