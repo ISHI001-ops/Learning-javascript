@@ -32,34 +32,39 @@ console.log("a % b =", a % b);
 
 
 //Unary Operator
-let c = 4;
-let d = 8;
+// let c = 4;
+// let d = 8;
 
-console.log("c =",c,"& d =",d)
-c = c-1;
-console.log("c=",c);
+// console.log("c =",c,"& d =",d)
+// c = c-1;
+// console.log("c=",c);
 //a++(post) , ++a(pre)
 //a--(post) , --a(pre)
 
-let e = 5;
-let f = 2;
+// let e = 5;
+// let f = 2;
 
-console.log("a=",a,"&b=",b);
+// console.log("a=",a,"&b=",b);
 
-console.log("++a=",++a)
+// console.log("++a=",++a)
 
 //Assigment operators
 
-let g = 5;
-let h = 2;  
+// let g = 5;
+// let h = 2;  
 
-g += 4;  // g = g + 4
-console.log("a=",a); 
+// g += 4;  // g = g + 4
+// console.log("a=",a); 
 
 // comparison operators 
 
- let i = 5;
- let j = 2;
+ let c = 5; //number
+ let d = "5"; //string -> number
+
+ console.log("5===2",c===d);
+
+
+
  
 
 
