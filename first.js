@@ -5,6 +5,7 @@
 // curly brases jaha se shuru hote hai vaha se naya code shuru hota hai
 // apan ko pure collection ko change karna hoga ek object ko change karne ke liye
 // let.. ko hum update ker sakte hai, const ko nahi, but const obj-->key ko ker sakte hai
+// syntax --> rules
 
 const profile = {
    fullName:"ishi jain",
@@ -89,9 +90,60 @@ console.log("!(6<5) = ", !(i < k) );
 
 
 
+// Conditional Statements
 
- 
+// -->if statement
+// let mode = "light";
+// let color;
 
+// if(mode === "dark") {
+//    color = "black"
+// }
+
+// if(mode === "light") {
+//    color = "white"
+// }
+
+// console.log(color);
+
+// let age = 16;
+
+// if (age >= 18) {
+//    console.log("you can vote");
+// }
+
+// if (age < 18) {
+//    console.log("you CANNOT vote");
+// }
+
+// -->if-else statement
+let num = 10;
+
+if(num % 2 === 0) {
+   console.log(num, "is even");
+} else {
+   console.log(num, "is odd")
+}
+
+// -->else-if statement
+let mode = "dark";
+let color;
+
+if(mode === "dark") {
+   color = "black";
+} else if(mode === "blue") {
+   color = "blue";
+} else if(mode === "pink") {
+   color = "pink";
+} else{
+   color = "white";
+}
+
+console.log(color);
+
+if(mode === "dark") {
+   console.log(mode);
+}
 
 
 
