@@ -117,33 +117,33 @@ console.log("!(6<5) = ", !(i < k) );
 // }
 
 // -->if-else statement
-let num = 10;
+// let num = 10;
 
-if(num % 2 === 0) {
-   console.log(num, "is even");
-} else {
-   console.log(num, "is odd")
-}
+// if(num % 2 === 0) {
+//    console.log(num, "is even");
+// } else {
+//    console.log(num, "is odd")
+// }
 
 // -->else-if statement
-let mode = "dark";
-let color;
+// let mode = "dark";
+// let color;
 
-if(mode === "dark") {
-   color = "black";
-} else if(mode === "blue") {
-   color = "blue";
-} else if(mode === "pink") {
-   color = "pink";
-} else{
-   color = "white";
-}
+// if(mode === "dark") {
+//    color = "black";
+// } else if(mode === "blue") {
+//    color = "blue";
+// } else if(mode === "pink") {
+//    color = "pink";
+// } else{
+//    color = "white";
+// }
 
-console.log(color);
+// console.log(color);
 
-if(mode === "dark") {
-   console.log(mode);
-}
+// if(mode === "dark") {
+//    console.log(mode);
+// }
 
 // -->ternary operators
 let age = 15;
@@ -153,6 +153,14 @@ console.log(result);
 
 
 
+let num = prompt("enter a number");
+
+if(num % 5 === 0) {
+   console.log(num, "is a multiple of 5");
+} else {
+   console.log(num,"is NOT a multiple of 5");
+}
+  
 
 
 
