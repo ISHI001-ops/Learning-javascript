@@ -154,13 +154,14 @@ console.log(result);
 
 
 // practice question 1
-let num = prompt("enter a number");
 
-if(num % 5 === 0) {
-   console.log(num, "is a multiple of 5");
-} else {
-   console.log(num,"is NOT a multiple of 5");
-}
+// let num = prompt("enter a number");
+
+// if(num % 5 === 0) {
+//    console.log(num, "is a multiple of 5");
+// } else {
+//    console.log(num,"is NOT a multiple of 5");
+// }
   
 // practice question 2
 
@@ -181,6 +182,20 @@ if(score >= 90 && score <= 100) {
 
 console.log("according to your scores, your grade was : ", grade)
 
+
+//for loops 
+
+for (let count = 1; count <= 10000; count++) {
+   console.log("ISHI JAIN");  //5 execute
+}
+
+//Calculate sum of 1 to 5
+let sum = 0
+for(let i = 1; i <= 5; i++) {
+   sum = sum + i;
+}
+console.log("sum = ",sum);
+console.log("loop has ended");
 
 
 
