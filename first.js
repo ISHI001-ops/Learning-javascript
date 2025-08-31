@@ -78,15 +78,15 @@ console.log("cond1 && cond2", cond1 && cond2);
 
 // -->logical OR
 let h = 6;
-let i = 5;
+let u = 5;
 
-console.log("cond3 || cond4 =",h < i || h === 6 ); // || -> pipe symbol
+console.log("cond3 || cond4 =",h < u || h === 6 ); // || -> pipe symbol
 
 // -->logical NOT
 let j = 6;
 let k = 5;
 
-console.log("!(6<5) = ", !(i < k) );
+console.log("!(6<5) = ", !(u < k) );
 
 
 
@@ -196,6 +196,24 @@ for(let i = 1; i <= 5; i++) {
 }
 console.log("sum = ",sum);
 console.log("loop has ended");
+
+// infinite loop --> a loop that never ends
+
+// while loops
+
+let i = 1;
+while(i <= 5) {
+   console.log("i=", i);
+   i++;
+}
+
+// do while loop
+
+let v = 20
+do {
+   console.log("ISHI JAIN");
+   v++
+} while (v<=10);
 
 
 
