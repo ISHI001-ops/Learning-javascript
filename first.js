@@ -215,7 +215,18 @@ do {
    v++
 } while (v<=10);
 
+// for-of loop
 
+let str = "JAVASCRIPT";
+
+let size = 0;
+for(let s of str) {
+   console.log("s=",s);
+   size++;
+}  
+
+console.log("string size = ", size);  //10 characters in JS spelling
+ 
 
 
 
