@@ -185,9 +185,10 @@ console.log("according to your scores, your grade was : ", grade)
 
 //for loops 
 
-for (let count = 1; count <= 10000; count++) {
-   console.log("ISHI JAIN");  //5 execute
-}
+// for (let count = 1; count <= 10000; count++) {
+//    console.log("ISHI JAIN");  //5 execute
+// }
+
 
 //Calculate sum of 1 to 5
 let sum = 0
@@ -228,5 +229,17 @@ for(let s of str) {
 console.log("string size = ", size);  //10 characters in JS spelling
  
 
+//for in loop
+
+let student = {
+   name: "ishi jain",
+   age: 20,
+   cgpa: 7.5,
+   ispass: true
+};
+
+for (let i in student) {
+   console.log("i =", i);
+}
 
 
