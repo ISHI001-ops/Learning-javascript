@@ -6,6 +6,9 @@
 // apan ko pure collection ko change karna hoga ek object ko change karne ke liye
 // let.. ko hum update ker sakte hai, const ko nahi, but const obj-->key ko ker sakte hai
 // syntax --> rules
+// string is a sequence of characters used to represent text
+
+
 
 const profile = {
    fullName:"ishi jain",
@@ -218,15 +221,17 @@ do {
 
 // for-of loop
 
-let str = "JAVASCRIPT";
 
-let size = 0;
-for(let s of str) {
-   console.log("s=",s);
-   size++;
-}  
 
-console.log("string size = ", size);  //10 characters in JS spelling
+// let str = "JAVASCRIPT";
+
+// let size = 0;
+// for(let s of str) {
+//    console.log("s=",s);
+//    size++;
+// }  
+
+// console.log("string size = ", size);  //10 characters in JS spelling
  
 
 //for in loop
@@ -262,3 +267,12 @@ while(userNum != gameNum) {
    userNam = prompt("You entered wrong number . Guess again : ");
 }
 console.log("congratulations, you entered the right number");
+
+
+
+
+
+
+//Strings
+let str = "Ishi jain";
+let str2 = "Joy";
