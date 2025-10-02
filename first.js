@@ -306,4 +306,9 @@ let res = "hello" + 123
 console.log(res);
 
 
+let str3 = "hello";
+
+console.log(str3.replace("lo","p"));
+
+
    
