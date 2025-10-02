@@ -7,7 +7,8 @@
 // let.. ko hum update ker sakte hai, const ko nahi, but const obj-->key ko ker sakte hai
 // syntax --> rules
 // string is a sequence of characters used to represent text
-// --> \n for next line 
+// --> \n for next line   
+// strings are immutable in JS.... immutable=joh chize change nahi hoti
 
 
 
@@ -275,8 +276,8 @@ for(let num=0; num <= 100; num++) {
 
 
 //Strings
-let str = "Ishi jain";
- console.log(str[5]);
+// let str = "Ishi jain";
+//  console.log(str[5]);
 
  //Template Literals
  let specialString = `this is a template literal`;
@@ -292,3 +293,7 @@ let str = "Ishi jain";
  console.log(output);
 
  console.log("the cost of", obj.item, "is", obj.price, "rupees");
+
+
+ let str = "    Ishi Jain JS     "
+ console.log(str.trim());
