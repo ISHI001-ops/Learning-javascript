@@ -295,5 +295,8 @@ for(let num=0; num <= 100; num++) {
  console.log("the cost of", obj.item, "is", obj.price, "rupees");
 
 
- let str = "    Ishi Jain JS     "
- console.log(str.trim());
+ let str = "01234567"
+ console.log(str.slice(1,6));
+
+
+   
