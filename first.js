@@ -259,14 +259,14 @@ for(let num=0; num <= 100; num++) {
 
 
 // practice ques.
-let gameNum = 25;
+// let gameNum = 25;
 
-let userNum = prompt("Guess the game number : ");
+// let userNum = prompt("Guess the game number : ");
 
-while(userNum != gameNum) {
-   userNam = prompt("You entered wrong number . Guess again : ");
-}
-console.log("congratulations, you entered the right number");
+// while(userNum != gameNum) {
+//    userNam = prompt("You entered wrong number . Guess again : ");
+// }
+// console.log("congratulations, you entered the right number");
 
 
 
@@ -275,4 +275,8 @@ console.log("congratulations, you entered the right number");
 
 //Strings
 let str = "Ishi jain";
-let str2 = "Joy";
+ console.log(str[5]);
+
+ //Template Literals
+ let specialString = `this is a template literal`;
+ console.log(typeof specialString);
