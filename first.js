@@ -7,6 +7,7 @@
 // let.. ko hum update ker sakte hai, const ko nahi, but const obj-->key ko ker sakte hai
 // syntax --> rules
 // string is a sequence of characters used to represent text
+// --> \n for next line 
 
 
 
@@ -280,3 +281,14 @@ let str = "Ishi jain";
  //Template Literals
  let specialString = `this is a template literal`;
  console.log(typeof specialString);
+
+
+ let obj = {
+   item: "pen",
+   price: 10,
+ };
+
+ let output = `the cost of ${obj.item} is ${obj.price} rupees`;
+ console.log(output);
+
+ console.log("the cost of", obj.item, "is", obj.price, "rupees");
