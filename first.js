@@ -299,4 +299,11 @@ for(let num=0; num <= 100; num++) {
  console.log(str.slice(1,6));
 
 
+ let str1 = "Ishi";
+ let str2 = "Jain";
+  
+let res = "hello" + 123 
+console.log(res);
+
+
    
