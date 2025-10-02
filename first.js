@@ -314,3 +314,10 @@ console.log(str3.replace("lo","p"));
 let str4 = "IloveJS";
 
 console.log(str4.charAt(3));
+
+
+//practice question
+let fullName = prompt("enter your fullName without spaces");
+
+let username = "@" + fullName + fullName.length;
+console.log(username);
