@@ -366,3 +366,25 @@ for(let val of markstwo) {
 
 let avg = sum1 / markstwo.length;
 console.log(`avg marks of the class = ${avg}`);
+
+
+
+//practice ques
+
+let items = [240,645,300,900,50];
+
+// let idx = 0;
+// for (let val of items) {
+  
+//    let offer = val / 10;
+//    items[idx] = items[idx] - offer;
+//    console.log(`value after offer = ${items[idx]}`)
+//    i++;
+// }
+
+for (let idx = 0; idx < items.length; idx++) {
+   let offer = items[idx] / 10;
+   items[idx] -= offer;
+}
+
+console.log(items);
