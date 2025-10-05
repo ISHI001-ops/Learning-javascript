@@ -355,3 +355,14 @@ let cities = ["delhi","ahmedabad","mumbai","udaipur","pune"]
 for(let city of cities) {
    console.log(city.toUpperCase());
 }
+
+// practice ques 
+let markstwo = [85,97,44,37,76,60];
+let sum1 = 0;
+
+for(let val of markstwo) {
+   sum1 += val;
+}
+
+let avg = sum1 / markstwo.length;
+console.log(`avg marks of the class = ${avg}`);
