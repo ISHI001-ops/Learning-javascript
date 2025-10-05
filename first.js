@@ -337,6 +337,14 @@ console.log(marks.length); //property
  
 // Array Indices
 
+// Looping over an Array
+
+let heroes = ["ironman","thor","hulk","shaktiman","spiderman","loki"];
+ // -->for loop
+// for(let i = 0; id < heroes.length; i++) {
+//    console.log(heroes[i]);
+// }
+
 
 
    
