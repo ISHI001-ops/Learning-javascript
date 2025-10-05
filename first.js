@@ -345,6 +345,13 @@ let heroes = ["ironman","thor","hulk","shaktiman","spiderman","loki"];
 //    console.log(heroes[i]);
 // }
 
-
-
+// -->for of 
+for(let hero of heroes) {
+   console.log(hero);
+}
    
+let cities = ["delhi","ahmedabad","mumbai","udaipur","pune"]
+
+for(let city of cities) {
+   console.log(city.toUpperCase());
+}
