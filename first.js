@@ -9,7 +9,10 @@
 // string is a sequence of characters used to represent text
 // --> \n for next line   
 // strings are immutable in JS.... immutable=joh chize change nahi hoti
-
+// arrays --> collection of items
+// object ke ander hame her ek key ko alag naam dena padta hai but array mai hum sare items ko ek single naam ke ander store ker ke rakh sakte hai
+// property vo hoti hai joh bs kuch value de deti hai or method vo hota hai joh kuch kaam kar raha hota hai
+// array ka koi type nahi hota vo ek object hai
 
 
 const profile = {
@@ -279,7 +282,7 @@ for(let num=0; num <= 100; num++) {
 // let str = "Ishi jain";
 //  console.log(str[5]);
 
- //Template Literals
+//Template Literals
  let specialString = `this is a template literal`;
  console.log(typeof specialString);
 
@@ -321,3 +324,15 @@ let fullName = prompt("enter your fullName without spaces");
 
 let username = "@" + fullName + fullName.length;
 console.log(username);
+
+
+
+
+// Arrays
+let marks = [97,82,45,67,77]
+console.log(marks);
+console.log(marks.length); //property
+
+let heroes = ["ironman","thor","hulk","shaktiman","spiderman","loki"];
+console.log(heroes);
+ 
