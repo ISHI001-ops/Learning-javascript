@@ -13,6 +13,7 @@
 // object ke ander hame her ek key ko alag naam dena padta hai but array mai hum sare items ko ek single naam ke ander store ker ke rakh sakte hai
 // property vo hoti hai joh bs kuch value de deti hai or method vo hota hai joh kuch kaam kar raha hota hai
 // array ka koi type nahi hota vo ek object hai
+// arrays are mutable in JS 
 
 
 const profile = {
@@ -333,6 +334,9 @@ let marks = [97,82,45,67,77]
 console.log(marks);
 console.log(marks.length); //property
 
-let heroes = ["ironman","thor","hulk","shaktiman","spiderman","loki"];
-console.log(heroes);
  
+// Array Indices
+
+
+
+   
