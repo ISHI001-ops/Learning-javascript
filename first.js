@@ -400,3 +400,10 @@ foodItems.push("chips","burger","paneer");
 
 console.log(foodItems);
 
+// --> pop()
+let colourItems = ["white","black","blue","orange","pink"]
+
+ console.log(colourItems);
+ let deletedItem = colourItems.pop();
+ console.log(colourItems);
+ console.log("deleted",deletedItem);
