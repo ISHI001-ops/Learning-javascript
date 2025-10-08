@@ -413,3 +413,12 @@ let marks6 = [88,92,71,89,94];
 console.log(marks6);
 console.log(marks6.toString());
 console.log(marks6);
+
+// -->concat()
+let marvelHeroes = ["thor","spiderman","ironman"];
+let dcHeroes = ["superman","batman"];
+let indianHeroes = ["shaktiman","krish"];
+
+let heroes1 = marvelHeroes.concat(dcHeroes, indianHeroes);
+console.log(heroes1);
+ 
