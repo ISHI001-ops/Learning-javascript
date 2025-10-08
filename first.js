@@ -425,4 +425,10 @@ console.log(heroes1);
 // -->unshift() = add to start
 // -->shift() = delete from start & return
 
+// -->slice()
+let marvels = ["thor","spiderman","ironman","antman","Dr. Strange"]
+
+console.log(marvels);
+
+console.log(marvelHeroes.slice(1,3));
 
