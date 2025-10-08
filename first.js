@@ -422,3 +422,7 @@ let indianHeroes = ["shaktiman","krish"];
 let heroes1 = marvelHeroes.concat(dcHeroes, indianHeroes);
 console.log(heroes1);
  
+// -->unshift() = add to start
+// -->shift() = delete from start & return
+
+
