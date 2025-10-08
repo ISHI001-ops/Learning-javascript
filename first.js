@@ -14,6 +14,7 @@
 // property vo hoti hai joh bs kuch value de deti hai or method vo hota hai joh kuch kaam kar raha hota hai
 // array ka koi type nahi hota vo ek object hai
 // arrays are mutable in JS 
+// array methods --> push() = add , pop() = delete
 
 
 const profile = {
@@ -387,4 +388,15 @@ for (let idx = 0; idx < items.length; idx++) {
    items[idx] -= offer;
 }
 
-console.log(items);
+console.log(items); 
+
+
+//Array Methods
+
+// --> push()
+let foodItems = ["potato","apple","litchi","tomato"];
+
+foodItems.push("chips","burger","paneer");
+
+console.log(foodItems);
+
