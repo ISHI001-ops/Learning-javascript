@@ -446,3 +446,11 @@ let arr = [1,2,3,4,5,6,7];
 
 //Replace Element
 arr.splice(3,1,101);
+
+
+//practice ques.
+let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+
+// companies.shift();
+companies.splice(2,1,"Ola");
+companies.push("Amazon");
