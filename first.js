@@ -407,3 +407,9 @@ let colourItems = ["white","black","blue","orange","pink"]
  let deletedItem = colourItems.pop();
  console.log(colourItems);
  console.log("deleted",deletedItem);
+
+// -->toString()
+let marks6 = [88,92,71,89,94];
+console.log(marks6);
+console.log(marks6.toString());
+console.log(marks6);
