@@ -16,7 +16,7 @@
 // arrays are mutable in JS 
 // array methods --> push() = add , pop() = delete
 // redundancy --> chize repeat hona
-
+//NaN = Not a Number
 
 const profile = {
    fullName:"ishi jain",
@@ -458,12 +458,21 @@ companies.push("Amazon");
   
 
 // FUNCTIONS
+
+
 function myFunction() {
    console.log("Welcome to page")
    console.log("I am learning javascript :)");
 }
 
 myFunction()
+
+function myFunction(msg) {
+   //parameter  --> input
+   console.log(msg);
+}
+
+myFunction("I love JS"); //argument
 
 
 
