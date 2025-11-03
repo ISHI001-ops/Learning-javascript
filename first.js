@@ -17,6 +17,8 @@
 // array methods --> push() = add , pop() = delete
 // redundancy --> chize repeat hona
 //NaN = Not a Number
+// kabhi bhi return ke baad wala code execute nahi hota hai
+// function parameters --> like local variables of function --> block scope
 
 const profile = {
    fullName:"ishi jain",
@@ -475,5 +477,17 @@ function myFunction(msg) {
 myFunction("I love JS"); //argument
 
 
+//Function --> 2 numbers,sum
 
+//  function sum2(x,y) {
+//    console.log(x + y);
+//  }
+
+function sum2(x,y) {
+     s = x + y;
+       return s;
+}
+
+let val = sum2(3,4);
+console.log(val);
 
