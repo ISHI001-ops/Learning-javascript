@@ -15,6 +15,7 @@
 // array ka koi type nahi hota vo ek object hai
 // arrays are mutable in JS 
 // array methods --> push() = add , pop() = delete
+// redundancy --> chize repeat hona
 
 
 const profile = {
@@ -454,3 +455,16 @@ let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
 // companies.shift();
 companies.splice(2,1,"Ola");
 companies.push("Amazon");
+  
+
+// FUNCTIONS
+function myFunction() {
+   console.log("Welcome to page")
+   console.log("I am learning javascript :)");
+}
+
+myFunction()
+
+
+
+
