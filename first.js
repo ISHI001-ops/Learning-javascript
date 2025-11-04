@@ -19,6 +19,11 @@
 //NaN = Not a Number
 // kabhi bhi return ke baad wala code execute nahi hota hai
 // function parameters --> like local variables of function --> block scope
+// A callback is a function passed as an argument to another functon
+//Higher order function/methods --> yeh function vo hote hai joh dusre function ko as a parameter le lete hai yah phir kisi function ko return ker rahe hote hai
+
+
+
 
 const profile = {
    fullName:"ishi jain",
@@ -547,3 +552,10 @@ function countVowels(str) {
 }
 
  
+//forEach loop in Arrays
+
+let arr2 = ["pune","ahmedabad","delhi"];
+
+arr.forEach((val) => {   //value at each idx
+   console.log(val.toUpperCase());
+});
