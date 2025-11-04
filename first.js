@@ -510,3 +510,21 @@ function mul(a,b) {
 const arrowMul = (a,b) => {
    console.log(a*b);
 }
+
+
+//Practice question
+
+function countVowels(str) {
+   let count = 0;
+   for (const char of str) {
+      if(char === "a" || 
+         char === "e" || 
+         char === "i" || 
+         char === "o" || 
+         char === "u" 
+      ){
+         count++;
+      }
+   }
+   return count;
+}
