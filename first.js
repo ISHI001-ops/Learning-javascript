@@ -556,6 +556,14 @@ function countVowels(str) {
 
 let arr2 = ["pune","ahmedabad","delhi"];
 
-arr.forEach((val) => {   //value at each idx
-   console.log(val.toUpperCase());
+arr.forEach((Val) => {   //value at each idx
+   console.log(Val);
 });
+
+
+//practice question
+let nums = [82,78,96];
+
+nums.forEach((num) => {
+   console.log(num * num); //num**2
+})
