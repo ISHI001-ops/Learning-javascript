@@ -491,3 +491,22 @@ function sum2(x,y) {
 let val = sum2(3,4);
 console.log(val);
 
+//Arrow function
+
+function sum3(a,b) {
+   return a + b;
+}
+
+
+const arrowSum = (a,b) => {
+   console.log(a + b);
+};
+
+//-->Multiplication function
+function mul(a,b) {
+   return a * b;
+}
+
+const arrowMul = (a,b) => {
+   console.log(a*b);
+}
