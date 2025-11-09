@@ -595,3 +595,13 @@ let evenArr = arr.filter((val) => {
 })
 
 console.log(evenArr);
+
+//-->reduce method
+
+let arr5 = [5,6,2,1,3];
+
+const output1 = arr.reduce((prev,curr) => {
+   return prev > curr ? prev : curr;
+});
+
+console.log(output1);
