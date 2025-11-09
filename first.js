@@ -562,8 +562,26 @@ arr.forEach((Val) => {   //value at each idx
 
 
 //practice question
-let nums = [82,78,96];
+// let nums = [82,78,96];
 
-nums.forEach((num) => {
-   console.log(num * num); //num**2
-})
+// nums.forEach((num) => {
+//    console.log(num * num); //num**2
+// })
+
+  
+
+//Some more array methods
+
+//-->Map Method
+
+let nums = [67,52,39];
+
+let newArr = nums.map((val) => {
+   return val * val;
+});
+
+console.log(newArr);
+
+let calcSquare = (num) => {
+   console.log(num*num);
+};
