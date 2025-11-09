@@ -614,3 +614,29 @@ let toppers = marksthree.filter((val) => {
 });
 
 console.log(toppers);
+
+
+//practice question
+
+let n = prompt("enter a number : ");
+
+let arr7 = [];
+
+for (let i = 1; i <= n; i++) {
+   arr7[i - 1] = i;
+}
+
+console.log(arr7);
+
+let sum8 = arr7.reduce((res, curr) => {
+   return res + curr;
+});
+
+console.log("sum =", sum);
+
+
+let factorial = arr7.reduce((res, curr) => {
+   return res * curr;
+});
+
+console.log("factorial =", factorial);
