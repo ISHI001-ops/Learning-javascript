@@ -590,7 +590,7 @@ let calcSquare = (num) => {
  
 let arr4 = [1,2,3,4,5,6,7];
 
-let evenArr = arr.filter((val) => {
+let evenArr = arr4.filter((val) => {
    return val % 2 === 0;
 })
 
@@ -600,8 +600,17 @@ console.log(evenArr);
 
 let arr5 = [5,6,2,1,3];
 
-const output1 = arr.reduce((prev,curr) => {
+const output1 = arr5.reduce((prev,curr) => {
    return prev > curr ? prev : curr;
 });
 
 console.log(output1);
+
+//practice question
+let marksthree = [87,35,90,99,67,92,95];
+
+let toppers = marksthree.filter((val) => {
+   return val > 90;
+});
+
+console.log(toppers);
