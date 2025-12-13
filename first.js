@@ -21,6 +21,9 @@
 // function parameters --> like local variables of function --> block scope
 // A callback is a function passed as an argument to another functon
 //Higher order function/methods --> yeh function vo hote hai joh dusre function ko as a parameter le lete hai yah phir kisi function ko return ker rahe hote hai
+//DOM - document object model
+//console.log --> print
+//console.dir --> document --> properties or methods
 
 
 
@@ -640,3 +643,8 @@ let factorial = arr7.reduce((res, curr) => {
 });
 
 console.log("factorial =", factorial);
+
+//DOM --> Document Object Model
+
+console.dir(document.body);
+console.log(document.body);
