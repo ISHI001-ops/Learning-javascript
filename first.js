@@ -25,6 +25,7 @@
 //console.log --> print
 //console.dir --> document --> properties or methods
 //id ko dikhane ke liye hum generally hum # ka use karte hai 
+//query selector hume node list return karta hai
 
 
 
@@ -657,5 +658,12 @@ let headings = document.getElementsByClassName("heading-class");
 console.dir(headings);
 console.log(headings);
 
-let parahs = document.getElementsByTagName("p");
-console.dir(parahs);
+// let parahs = document.getElementsByTagName("p");
+// console.dir(parahs);
+
+//-->querySelector("p");
+// let firstEl = document.querySelector("p"); //1st element
+// console.dir(firstEL);
+
+// let allEL = document.querySelectorAll("p"); //all elements
+// console.dir(allEL);
