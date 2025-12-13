@@ -24,6 +24,7 @@
 //DOM - document object model
 //console.log --> print
 //console.dir --> document --> properties or methods
+//id ko dikhane ke liye hum generally hum # ka use karte hai 
 
 
 
@@ -648,3 +649,13 @@ console.log("factorial =", factorial);
 
 console.dir(document.body);
 console.log(document.body);
+
+// let heading = document.getElementById("heading");
+// console.dir(heading);
+
+let headings = document.getElementsByClassName("heading-class");
+console.dir(headings);
+console.log(headings);
+
+let parahs = document.getElementsByTagName("p");
+console.dir(parahs);
