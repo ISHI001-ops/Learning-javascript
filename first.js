@@ -26,6 +26,8 @@
 //console.dir --> document --> properties or methods
 //id ko dikhane ke liye hum generally hum # ka use karte hai 
 //query selector hume node list return karta hai
+//innerText --> isme sirf text aata hai
+//innerHTML --> isme HTML content bhi aata hai 
 
 
 
