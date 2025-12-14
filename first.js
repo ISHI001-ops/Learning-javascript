@@ -681,3 +681,12 @@ console.log(name);
 
 let para = document.querySelector("p");
 console.log(para.getAttribute("class"));
+
+let newBtn = document.createElement("button");
+newBtn.innerText = "click me!";
+console.log(newBtn);
+
+let newHeading = document.createElement("h1");
+newHeading.innerHTML = "<i>Hi, i am new!</i>";
+
+document.querySelector("body").prepend(newHeading);
