@@ -690,3 +690,6 @@ let newHeading = document.createElement("h1");
 newHeading.innerHTML = "<i>Hi, i am new!</i>";
 
 document.querySelector("body").prepend(newHeading);
+
+// let para = document.querySelector("p");
+// para.remove()
