@@ -682,14 +682,25 @@ console.log(name);
 let para = document.querySelector("p");
 console.log(para.getAttribute("class"));
 
-let newBtn = document.createElement("button");
-newBtn.innerText = "click me!";
-console.log(newBtn);
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click me!";
+// console.log(newBtn);
 
 let newHeading = document.createElement("h1");
 newHeading.innerHTML = "<i>Hi, i am new!</i>";
+newHeading.style.color = "blue";
 
 document.querySelector("body").prepend(newHeading);
 
 // let para = document.querySelector("p");
 // para.remove()
+
+
+//-->practice question 1
+let newBtn = document.createElement("button")
+newBtn.innerText = "click me!";
+
+newBtn.style.color = "white";
+newBtn.style.backgroundColor = "red";
+
+document.querySelector("body").prepend(newBtn);
